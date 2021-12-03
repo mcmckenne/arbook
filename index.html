@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Zodiac Signs</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- https://ar-js-org.github.io/AR.js-Docs/-->
+<!--Note to self: In order for this code  to work, the following things are required for the gltf-model:
+The entire folder with scene.bin and scene.gltf must be uploaded to GitHub
+The URL must include https
+The URL must start with https://arjs-cors-proxy.herokuapp.com/
+Check that gltf is working at https://gltf-viewer.donmccurdy.com/
+-->
+
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <!-- we import arjs version without NFT but with marker + location based support -->
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <!--Pattern Marker Example Use this Marker Generator https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html-->
+
+      <!--Zeroeth Marker logo and 3D model-->
+ 
+      <a-marker preset="hiro">
+        <a-entity
+          position="-1 -1 -1"
+          scale="0.01 0.01 0.01"
+          gltf-model="https://arjs-cors-proxy.herokuapp.com/https://mcmckenne.github.io/arbook/dcd_304_model1/scene.gltf"
+        ></a-entity>
+      </a-marker>
+      
+      
+      
+      <!--First Marker aries and Image Overlay-->
+      
+      <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-1.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/aries.png"></a-image> 
+</a-marker>
+
+        
+       
+        <!--Image Example (must be a .png; the .jpg just shows up as white square, you can also modify width="200" height="100" added after src="" but before>)-->
+
+      
+        <!--3D Model Example-->
+
+   <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-2.patt'>
+    
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook.leo.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-3.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/sag.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-4.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https:/mcmckenne.github.io/arbook/taurus.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-5.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/virgo.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-6.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/capricorn.png"></a-image> 
+</a-marker>
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-7.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/pisces.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-8.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/cancer.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-9.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/scorpio.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-10.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/aquarius.png"></a-image> 
+</a-marker>
+      
+      
+      
+         <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-11.patt'>
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/gemini.png"></a-image> 
+</a-marker>
+      
+               <a-marker type='pattern' url='https://mcmckenne.github.io/arbook/pattern-12.patt'>
+          
+   <a-image position="0 0 0" rotation="-90 0 0" src="https://mcmckenne.github.io/arbook/libra.png"></a-image> 
+</a-marker>
+      
+      
+      
+
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+<!-- partial -->
+  
+</body>
+</html>
