@@ -1,0 +1,11 @@
+Model Information:
+* title:	DCD 304 Model1
+* source:	https://sketchfab.com/3d-models/dcd-304-model1-9ea51016da2a42239b6bf60a00987178
+* author:	mcmckenne (https://sketchfab.com/mcmckenne)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DCD 304 Model1" (https://sketchfab.com/3d-models/dcd-304-model1-9ea51016da2a42239b6bf60a00987178) by mcmckenne (https://sketchfab.com/mcmckenne) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
